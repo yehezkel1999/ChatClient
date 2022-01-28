@@ -6,4 +6,4 @@ obj/
 
 # executalbles
 *.exe
-server
+client

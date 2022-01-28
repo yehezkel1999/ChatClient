@@ -64,9 +64,9 @@ OBJS=$(patsubst $(SRC)/%.cpp, $(OBJ)/%.o, $(SRCS))
 HDRS=$(wildcard $(SRC)/*.h)
 
 # binary name:
-BIN=server
+BIN=client
 # zipped file name in case the code needs to be submitted as a zipped file
-SUBMIT=server.zip
+SUBMIT=client.zip
 
 # the target to be executed when the makefile is executed (command: make)
 all: sockd
